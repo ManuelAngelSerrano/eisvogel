@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pandoc "$1" \
+    -o "$2" \
+   	-f gfm \
+	--pdf-engine=lualatex \
+	-H ~/.pandoc/templates/headers.tex \
+	-V geometry:margin=1in \
+	-V linkcolor:blue \
+	-V geometry:a4paper \
+	-V fontsize=12pt \
+	--listings
