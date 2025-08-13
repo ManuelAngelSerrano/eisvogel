@@ -1,6 +1,7 @@
 Para instalar eisvogel hay que copiar 2 archivos, como dice en:
 
 [https://github.com/Wandmalfarbe/pandoc-latex-template](https://github.com/Wandmalfarbe/pandoc-latex-template)
+
 Más info en: [https://lornajane.net/posts/2023/generating-a-nice-looking-pdf-with-pandoc](https://lornajane.net/posts/2023/generating-a-nice-looking-pdf-with-pandoc)
 
 Luego hay que ejecutar el pandoc con parámetros como se muestra a continuación:
